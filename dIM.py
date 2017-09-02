@@ -1,7 +1,8 @@
 import calendar
 import datetime
 from pprint import pprint as pp
-import pdb
+import sys
+
 
 def get_datetime_range(year, month):
     nb_days = calendar.monthrange(year, month)[1]
@@ -20,3 +21,6 @@ currentYear= currentDate.year
 dObj,dMon = get_datetime_range(currentYear, currentMonth)
 pp (dObj)
 pp (dMon)
+
+if __name__ = '__main__':
+    get_datetime_range(sys.arv[1],sys.arv[2])
