@@ -19,8 +19,8 @@ currentDate = datetime.datetime.now()
 currentMonth = currentDate.month
 currentYear= currentDate.year
 dObj,dMon = get_datetime_range(currentYear, currentMonth)
-pp (dObj)
-pp (dMon)
+# pp (dObj)
+# pp (dMon)
 
-if __name__ = '__main__':
-    get_datetime_range(sys.arv[1],sys.arv[2])
+# if __name__ == '__main__':
+#     get_datetime_range(sys.argv[1],sys.argv[2])
